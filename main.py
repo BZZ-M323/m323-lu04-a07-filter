@@ -7,7 +7,7 @@ def filter_even_numbers(numbers):
     - even_numbers_list: Eine Liste der geraden Zahlen.
     """
     # Ihr Code hier
-    return even_numbers_list
+    return list(filter(lambda x: x % 2 == 0, numbers))
 
 
 if __name__ == '__main__':
